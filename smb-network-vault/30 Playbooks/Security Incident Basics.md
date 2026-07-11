@@ -37,4 +37,4 @@ First-response for suspected compromise — malware alert, ransomware note, "wei
 
 ## Signals worth investigating *before* they're incidents
 
-Odd egress in deny-logs ([[IoT Devices]] posture pays off here) · impossible-travel logins · a host suddenly uploading at 3 AM ([[Slow Network Playbook]] finding) · new admin accounts nobody made · [[Backup Strategy|backup job]] size anomalies · antivirus mass-disabling. Cheap monthly habit: skim these → [[SNMP and Monitoring]].
+Odd egress in deny-logs ([[IoT Devices]] posture pays off here) · impossible-travel logins · a host suddenly uploading at 3 AM ([[Slow Network Playbook]] finding) · new admin accounts nobody made · [[Backup Strategy|backup job]] size anomalies · antivirus mass-disabling · customers receiving mail "from us" that we never sent ([[Email Authentication|DMARC]] gap or real mailbox compromise → [[Email Deliverability Playbook]]). Cheap monthly habit: skim these → [[SNMP and Monitoring]].

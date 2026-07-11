@@ -43,6 +43,7 @@ aliases: []
 - Wireless controller: → [[Wireless LAN Controller]]
 - Backup system + off-site target: → [[Backup Strategy]]
 - UPS + battery install date: → [[UPS]]
+- Email: platform · DNS host · SPF/DKIM/DMARC state → [[Email Authentication]] (last verified: )
 
 ## Emergency contacts & procedures
 

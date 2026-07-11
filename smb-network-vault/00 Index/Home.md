@@ -66,7 +66,7 @@ This vault is a **neural network of knowledge** for managing SMB networks. Every
 | Layer 2 | [[Switching and ARP]] · [[VLANs]] · [[Spanning Tree Protocol]] · [[Power over Ethernet]] |
 | Layer 3 | [[Routing]] |
 | Wireless | [[Wi-Fi Fundamentals]] |
-| Security | [[Firewall Concepts]] · [[VPN Fundamentals]] · [[Network Segmentation]] |
+| Security | [[Firewall Concepts]] · [[VPN Fundamentals]] · [[Network Segmentation]] · [[Email Authentication]] |
 | Operations | [[Device Access Methods]] · [[SNMP and Monitoring]] · [[QoS]] · [[High Availability]] · [[Backup Strategy]] |
 
 ---
@@ -78,6 +78,7 @@ This vault is a **neural network of knowledge** for managing SMB networks. Every
 - [[Slow Network Playbook]] — performance degradation
 - [[Wi-Fi Problems Playbook]] — coverage, roaming, auth failures
 - [[VPN Troubleshooting Playbook]] — tunnels down or flapping
+- [[Email Deliverability Playbook]] — mail in spam, bounces, domain spoofing
 - [[Firmware Update Procedure]] — safe upgrade workflow
 - [[Configuration Backup Procedure]] — before you touch anything
 - [[Security Incident Basics]] — first response
@@ -90,6 +91,7 @@ This vault is a **neural network of knowledge** for managing SMB networks. Every
 - [[Private IP Ranges]] — RFC 1918 and reserved space
 - [[Subnet Cheat Sheet]] — mask ↔ hosts ↔ CIDR
 - [[CLI Quick Reference]] — Cisco-style command crib
+- [[Email Authentication Cheat Sheet]] — SPF/DKIM/DMARC syntax, lookups, providers
 - [[Vendor Default IPs and Logins]] — factory access details
 - [[Documentation Standards]] — labeling, IPAM, diagrams
 
@@ -97,6 +99,7 @@ This vault is a **neural network of knowledge** for managing SMB networks. Every
 
 - [[Device Note Template]] — for documenting new gear
 - [[Site Note Template]] — for documenting a location
+- [[Email Deliverability Engagement Template]] — per-client deliverability fix worksheet
 
 > [!tip] Golden rules
 > 1. **Back up config before every change** → [[Configuration Backup Procedure]]

@@ -20,9 +20,9 @@ Browser → OS cache → hosts file → configured DNS server (from [[DHCP]])
 |---|---|---|
 | A / AAAA | name → IPv4/IPv6 | Internal hosts, your website |
 | CNAME | name → another name | `mail.co.com → outlook.office365.com` |
-| MX | domain → mail server | Email delivery |
-| TXT | free text | **SPF/DKIM/DMARC** — email anti-spoofing; misconfigured = your mail lands in spam |
-| PTR | IP → name | Reverse lookup; ISPs set these for mail servers |
+| MX | domain → mail server | Email delivery → [[Email Authentication]] |
+| TXT | free text | **SPF/DKIM/DMARC** — email anti-spoofing → [[Email Authentication]]; misconfigured = your mail lands in spam → [[Email Deliverability Playbook]] |
+| PTR | IP → name | Reverse lookup; ISPs set these for mail servers — required for direct senders → [[Email Authentication]] |
 | SRV | service → host:port | Active Directory *requires* these |
 
 ## Internal DNS — the SMB decision tree

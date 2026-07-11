@@ -12,7 +12,7 @@ Ports identify **which service** on a host traffic is destined for (Layer 4 of t
 | 20/21 | TCP | FTP (data/control) | Legacy file transfer — avoid; unencrypted |
 | 22 | TCP | SSH / SFTP | CLI access to nearly every device → [[Device Access Methods]] |
 | 23 | TCP | Telnet | Legacy CLI — **disable everywhere**, plaintext |
-| 25 | TCP | SMTP | Mail relay; often blocked outbound by ISPs |
+| 25 | TCP | SMTP | Mail relay; often blocked outbound by ISPs → [[Email Authentication]] |
 | 53 | TCP/UDP | DNS | [[DNS]] queries (UDP), zone transfers (TCP) |
 | 67/68 | UDP | DHCP (server/client) | [[DHCP]] leases |
 | 69 | UDP | TFTP | Firmware/config transfer to switches, phones |
@@ -28,7 +28,7 @@ Ports identify **which service** on a host traffic is destined for (Layer 4 of t
 | 445 | TCP | SMB | Windows/[[NAS]] file shares — **never expose to WAN** |
 | 500/4500 | UDP | IKE / NAT-T | IPsec VPN → [[VPN Fundamentals]] |
 | 514 | UDP | Syslog | Central logging |
-| 587 | TCP | SMTP submission | Client mail sending (auth + TLS) |
+| 587 | TCP | SMTP submission | Client mail sending (auth + TLS) — route non-signing devices here → [[Email Deliverability Playbook]] |
 | 631 | TCP/UDP | IPP | Network printing → [[Network Printer]] |
 | 853 | TCP | DNS over TLS | Encrypted DNS |
 | 1194 | UDP/TCP | OpenVPN | [[VPN Appliance]] |
