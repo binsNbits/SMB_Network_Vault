@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 Concepts/Wi-Fi Fundamentals.md",
+                "file": "50 Business/Security Snapshot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wi-Fi Fundamentals"
+              "title": "Security Snapshot"
             }
           }
         ]
@@ -182,6 +182,10 @@
   },
   "active": "fd75ca957d365754",
   "lastOpenFiles": [
+    "50 Business/Cyber Insurance Questionnaire.md",
+    "50 Business/90-Day Launch Plan.md",
+    "50 Business/Business Model Overview.md",
+    "10 Concepts/Wi-Fi Fundamentals.md",
     "40 Reference/CLI Quick Reference.md",
     "30 Playbooks/Firmware Update Procedure.md",
     "20 Devices/POS Terminals.md",

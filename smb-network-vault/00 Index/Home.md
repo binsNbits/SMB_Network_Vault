@@ -3,15 +3,16 @@ tags: [index, moc]
 aliases: [Index, MOC, Start Here]
 ---
 
-# 🏠 SMB Network Knowledge Base — Home
+# 🏠 SMB Network & Fractional IT Knowledge Base — Home
 
-This vault is a **neural network of knowledge** for managing SMB networks. Every note links to related notes — open **Graph View** (`Ctrl/Cmd+G`) to see the web. Follow `[[wikilinks]]` to traverse from any device to the concepts it depends on and the playbooks that use it.
+This vault is a **neural network of knowledge** for running a fractional IT practice and managing SMB networks. Every note links to related notes — open **Graph View** (`Ctrl/Cmd+G`) to see the web. Follow `[[wikilinks]]` to traverse from any device to the concepts it depends on and the playbooks that use it.
 
 **How to use this vault**
 1. New to networking? Start with [[OSI Model]] → [[IP Addressing]] → [[Subnetting and CIDR]] → [[VLANs]].
 2. Working on a device? Jump straight to its note under *Devices* — each note links back to prerequisite concepts.
 3. Something broken? Go to *Playbooks* — symptom-driven, step-by-step, with reasons for every step.
 4. Need a number fast? *Reference* holds ports, subnets, default IPs, CLI crib sheets.
+5. Working **on** the business, not **in** it? Start at [[Business Model Overview]] — pricing, sales, ops, finance.
 
 ---
 
@@ -82,6 +83,23 @@ This vault is a **neural network of knowledge** for managing SMB networks. Every
 - [[Firmware Update Procedure]] — safe upgrade workflow
 - [[Configuration Backup Procedure]] — before you touch anything
 - [[Security Incident Basics]] — first response
+
+---
+
+## 💼 Business (the fractional IT practice)
+
+| Area | Notes |
+|---|---|
+| The model | [[Business Model Overview]] · [[Fractional IT vs Full MSP]] |
+| Market | [[Ideal Client Profile]] · [[Target Verticals]] |
+| Pricing | [[Retainer Tiers]] · [[Project Pricing]] |
+| Sales | [[Outreach Playbook]] · [[Security Snapshot]] · [[Cyber Insurance Questionnaire]] · [[Weekly Quotas and Metrics]] |
+| Tooling | [[Launch Tool Stack]] · [[Tool Stack Upgrade Path]] |
+| Legal | [[Legal Insurance and Licensing]] |
+| Delivery | [[Client Onboarding Runbook]] · [[Retainer Scope vs Project Scope]] · [[Solo Operations and Boundaries]] |
+| Cloud strategy | [[M365 vs Google Workspace Strategy]] · [[Server-to-Cloud Migration]] |
+| Money & risk | [[Financial Model]] · [[Risks and Failure Modes]] |
+| Execution | [[90-Day Launch Plan]] |
 
 ---
 
